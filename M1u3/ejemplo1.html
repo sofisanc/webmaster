@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer html</title>
+</head>
+<body>
+    <h1>Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+
+    <h2>Bella Naturaleza</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est accusamus ea, assumenda officia ex adipisci voluptas nemo hic eum, expedita, odit reprehenderit facere? Architecto facere voluptatum asperiores sapiente optio ea!</p>
+    <h2>Listas</h2>
+    <ul>
+            <li>Catus</li>
+            <li>Suculentas</li>
+            <li>Potus</li>
+    </ul>
+    <ol>
+        <li>Catus</li>
+        <li>Suculentas</li>
+        <li>Potus</li>
+    </ol>
+
+    <h2>Etiqueta 2</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ipsam repellendus? Fugiat sit, iste ipsam officiis dicta at eligendi a consequatur, doloremque consectetur accusantium quis sequi, alias vitae amet cumque.
+        <a href="https://es.lipsum.com/"target="_blank">aca</a>
+    </p>
+    <!--esto es un comentario en HTML-->
+
+    <h2>Trabajamos con imagenes</h2>
+    <img src="Plants.jpg" alt="Plantitas varias">
+    <img src="casa.jpg" alt="Foto de casa">
+
+    <form action="" method="">
+        <p>
+            <label for="nom">Nombre</label>
+            <input type="text" name="Nombre"/>
+        </p>
+        <p>
+            <input type="text" name="apellido" placeholder="apellido"/>
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" />
+        </p>
+        <label for="genero">Género</label>
+            <ul>
+                <li>
+                    <input type="radio" name="genero" value="Mujer">
+                    <label>Mujer</label>
+                </li>
+                <li>
+                    <input type="radio" name="genero" value="Hombre">
+                    <label>Hombre</label>
+                </li>
+                <li>
+                    <input type="radio" name="genero" value="No binario">
+                    <label>No binario</label>
+                </li>
+            </ul>
+            <label>Me interesan plantas...</label>
+            <ul>
+                <li>
+                    <input type="checkbox" name="Me interesan plantas...[]" value="de mucho sol" id="de mucho sol"/>
+                    <label for="de mucho sol">De mucho sol</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Me interesan plantas...[]" value="de sol" id="de sol"/>
+                    <label for="de sol">De sol</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Me interesan plantas...[]" value="de poco sol" id="de poco sol"/>
+                    <label for="de poco sol">De poco sol</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Me interesan plantas...[]" value="de sombra" id="de sombra"/>
+                    <label for="de sombra">De sombra</label>
+                </li>
+            </ul>
+            <p>
+                <label for="regado">Regado</label>
+                <select name="regado">
+                    <option value="muy frecuente">Muy frecuente</option>
+                    <option value="frecuente">Frecuente</option>
+                    <option value="poco frecuente">Poco frecuente</option>
+                    <option value="muy poco frecuente">Muy poco frecuente</option>
+                </select>
+            </p>
+            <p>
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Borrar"/>
+            </p>
+    </form>
+
+</body>
+</html>
