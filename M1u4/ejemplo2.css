@@ -1,0 +1,10 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+p{
+    color: grey;
+    font-weight: bold;
+    font-style: italic;
+}
