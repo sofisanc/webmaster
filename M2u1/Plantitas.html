@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantitas CV</title>
+    <link rel="stylesheet" href="Plantitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Suravaram&family=Texturina:opsz,wght@12..72,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,200;1,400&family=Texturina:opsz,wght@12..72,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>Bella Naturaleza</h1>
+    <h2>Tienda de plantas <i class="fa-solid fa-seedling" style="color: #000000;"></i></h2>
+    <h3>cactus & suculentas</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+
+    <h2 class="diferentes">Bella Naturaleza</h2>
+    <p style="column-count: 3; column-gap: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet error esse iusto eligendi facilis, illum odit qui velit hic! Tempore et doloremque architecto! Totam quas iure rem reprehenderit incidunt libero.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptates veritatis pariatur quod corrupti corporis, quam vero illum rem magni minima vel dolores sint totam. Aliquid alias commodi quis eaque.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est accusamus ea, assumenda officia ex adipisci voluptas nemo hic eum, expedita, odit reprehenderit facere? Architecto facere voluptatum asperiores sapiente optio ea!</p>
+    <h2 style="text-decoration-line: overline;">Listas</h2>
+    <div id="caja">
+    <ul>
+            <li>Catus</li>
+            <li>Suculentas</li>
+            <li>Potus</li>
+    </ul>
+    <ol>
+        <li>Catus</li>
+        <li>Suculentas</li>
+        <li>Potus</li>
+    </ol>
+</div>
+
+
+    <h2>Etiqueta 2</h2>
+    <p style="font-style: italic; text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ipsam repellendus? Fugiat sit, iste ipsam officiis dicta at eligendi a consequatur, doloremque consectetur accusantium quis sequi, alias vitae amet cumque.
+        <a href="https://es.lipsum.com/"target="_blank">acá</a>
+    </p>
+    <!--esto es un comentario en HTML-->
+
+    <h2 class="diferentes">Trabajamos con imagenes</h2>
+    <img src="Plants.jpg" alt="Plantitas varias">
+    <img src="casa.jpg" alt="Foto de casa">
+
+
+    <div id="form">
+    <form action="" method="">
+        <p>
+            <label for="nom">Nombre</label>
+            <input type="text" name="Nombre"/>
+        </p>
+        <p>
+            <input type="text" name="apellido" placeholder="apellido"/>
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" />
+        </p>
+        <label for="genero">Género</label>
+            <ul>
+                <li>
+                    <input type="radio" name="genero" value="Mujer">
+                    <label>Mujer</label>
+                </li>
+                <li>
+                    <input type="radio" name="genero" value="Hombre">
+                    <label>Hombre</label>
+                </li>
+                <li>
+                    <input type="radio" name="genero" value="No binario">
+                    <label>No binario</label>
+                </li>
+            </ul>
+            <label>Me interesan plantas...</label>
+            <ul>
+                <li>
+                    <input type="checkbox" name="Me interesan plantas...[]" value="de mucho sol" id="de mucho sol"/>
+                    <label for="de mucho sol">De mucho sol</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Me interesan plantas...[]" value="de sol" id="de sol"/>
+                    <label for="de sol">De sol</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Me interesan plantas...[]" value="de poco sol" id="de poco sol"/>
+                    <label for="de poco sol">De poco sol</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Me interesan plantas...[]" value="de sombra" id="de sombra"/>
+                    <label for="de sombra">De sombra</label>
+                </li>
+            </ul>
+            <p>
+                <label for="regado">Regado</label>
+                <select name="regado">
+                    <option value="muy frecuente">Muy frecuente</option>
+                    <option value="frecuente">Frecuente</option>
+                    <option value="poco frecuente">Poco frecuente</option>
+                    <option value="muy poco frecuente">Muy poco frecuente</option>
+                </select>
+            </p>
+            <p>
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Borrar"/>
+            </p>
+    </form>
+</div>
+</body>
+</html>
