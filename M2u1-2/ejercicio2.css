@@ -5,6 +5,7 @@
     height: 600px;
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
 .verde{
